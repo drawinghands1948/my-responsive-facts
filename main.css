@@ -1,36 +1,110 @@
 .container{
-	width: 1000px;
+	max-width: 1200px;
 	margin: 0px auto;
 	
 }
 
-@media (min-width:500px){
+p{
+	font-family: 'Reenie Beanie', cursive; font-weight:600; font-size:40px;
+}
+
+body{
+	background: #006699;
+}
+
+
+@media (min-width:400px){
 	p.one{
 		display:none;
+		
+		}
+	
 	}
-}
-
-@media (min-width:550px){
+	
+@media (min-width:530px){
 	p.two{
 		display:none;
+		
+		}
+	
 	}
-}
-
-@media (min-width:680px){
+	
+@media (min-width:660px){
 	p.three{
 		display:none;
+		
+		}
+	
 	}
-}
-
-@media (min-width:810px){
+	
+@media (min-width:790px){
 	p.four{
 		display:none;
+		
+		}
+	
 	}
-}
-
-@media (min-width:940px){
+	
+@media (min-width:920px){
 	p.five{
 		display:none;
+		
+		}
+	
 	}
-}
+	
+@media (min-width:1050px){
+	p.six{
+		display:none;
+		
+		}
+	
+	}
+	
 
+@media (min-width:400px){
+	body{
+		
+		background: #339999;
+		}
+	
+	}
+
+	@media (min-width:530px){
+	body{
+		
+		background: #0066CC;
+		}
+	
+	}
+	
+		@media (min-width:660px){
+	body{
+		
+		background: #0099CC;
+		}
+	
+	}
+	
+		@media (min-width:790px){
+	body{
+		
+		background: #00CCCC;
+		}
+	
+	}
+	
+		@media (min-width:920px){
+	body{
+		
+		background: #00FFCC;
+		}
+	
+	}
+			@media (min-width:1050px){
+	body{
+		
+		background: #99FFCC;
+		}
+	
+	}
